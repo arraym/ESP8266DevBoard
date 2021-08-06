@@ -1,4 +1,4 @@
-update=04.08.2021 17:34:47
+update=06.08.2021 23:15:34
 version=1
 last_client=kicad
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=DocumentatiePlantare/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=79
 ERC_TestSimilarLabels=1
