@@ -1724,28 +1724,6 @@ $EndComp
 Wire Wire Line
 	10600 5900 10600 5800
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 611EAD2B
-P 9900 5700
-F 0 "H1" H 10000 5800 50  0000 L CNN
-F 1 "MH" H 10000 5700 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9900 5700 50  0001 C CNN
-F 3 "~" H 9900 5700 50  0001 C CNN
-	1    9900 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR032
-U 1 1 611EAD31
-P 9900 5900
-F 0 "#PWR032" H 9900 5650 50  0001 C CNN
-F 1 "GND" H 9900 5750 50  0000 C CNN
-F 2 "" H 9900 5900 50  0001 C CNN
-F 3 "" H 9900 5900 50  0001 C CNN
-	1    9900 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 611EAD37
 P 10250 5700
@@ -1768,7 +1746,18 @@ F 3 "" H 10250 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9900 5900 9900 5800
-Wire Wire Line
 	10250 5900 10250 5800
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6113427D
+P 9900 5650
+F 0 "H1" H 10000 5700 50  0000 L CNN
+F 1 "MH" H 10000 5600 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9900 5650 50  0001 C CNN
+F 3 "~" H 9900 5650 50  0001 C CNN
+	1    9900 5650
+	1    0    0    -1  
+$EndComp
+Text Label 2800 1650 0    79   ~ 0
+RST
 $EndSCHEMATC
