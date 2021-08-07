@@ -132,7 +132,7 @@ F 1 "SU9H-01100" H 2300 7000 50  0000 C CNN
 F 2 "KiCadCustom:L_SU9H" H 2300 6800 50  0001 C CNN
 F 3 "~" H 2300 6800 50  0001 C CNN
 	1    2300 6800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:CP C9
@@ -1537,11 +1537,7 @@ Wire Wire Line
 	1700 7000 1950 7000
 Wire Wire Line
 	1950 7000 1950 6900
-Wire Wire Line
-	1950 6900 2100 6900
 Connection ~ 1700 7000
-Wire Wire Line
-	2100 6700 1950 6700
 Wire Wire Line
 	1950 6700 1950 6600
 Wire Wire Line
@@ -1557,19 +1553,13 @@ Connection ~ 1700 6600
 Wire Wire Line
 	1700 6600 1450 6600
 Wire Wire Line
-	2500 6700 2600 6700
-Wire Wire Line
 	2700 6900 2600 6900
 Wire Wire Line
 	2600 6500 2600 6700
-Connection ~ 2600 6700
 Wire Wire Line
 	2600 6700 2700 6700
 Wire Wire Line
 	2600 7350 2600 6900
-Connection ~ 2600 6900
-Wire Wire Line
-	2600 6900 2500 6900
 Wire Wire Line
 	3550 7350 3550 6900
 Wire Wire Line
@@ -1760,4 +1750,14 @@ F 3 "~" H 9900 5650 50  0001 C CNN
 $EndComp
 Text Label 2800 1650 0    79   ~ 0
 RST
+Wire Wire Line
+	2100 6700 1950 6700
+Wire Wire Line
+	2100 6900 1950 6900
+Wire Wire Line
+	2500 6700 2600 6700
+Connection ~ 2600 6700
+Wire Wire Line
+	2500 6900 2600 6900
+Connection ~ 2600 6900
 $EndSCHEMATC
