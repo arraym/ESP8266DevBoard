@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-08-08T17:51:26+03:00"
+    "CreationDate":  "2021-09-27T19:56:37+03:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "ESP8266DevBoard",
       "GUID": "45535038-3236-4364-9465-76426f617264",
-      "Revision": "1.0"
+      "Revision": "1.1"
     },
     "Size":
     {
