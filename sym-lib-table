@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name KiCadCustom)(type Legacy)(uri ${KICAD_WORKSPACE}/GlobalLibrary/KiCadCustom.lib)(options "")(descr ""))
+  (lib (name ESP8266DevBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP8266DevBoard-rescue.lib)(options "")(descr ""))
 )
